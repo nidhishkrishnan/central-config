@@ -2,5 +2,5 @@ server:
     context-path: /exam
 
 exam-mark:
-  total: 200
-  pass: 50
+  total: 1000
+  pass: 400
