@@ -4,8 +4,11 @@ server:
 
 
 spring:
+  jpa:
+    hibernate:
+      ddl-auto: create
   datasource:
     url: jdbc:mysql://localhost:3306/ust
     username: root
-    password: roots
+    password: root
     driver-class-name: com.mysql.jdbc.Driver
