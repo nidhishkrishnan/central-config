@@ -1,7 +1,6 @@
-
 server:
     context-path: /student
-
+spring:
   datasource:
     url: jdbc:mysql://localhost:3306/ust
     username: root
