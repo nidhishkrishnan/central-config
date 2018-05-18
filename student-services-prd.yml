@@ -2,11 +2,6 @@
 server:
     context-path: /student
 
-
-spring:
-  jpa:
-    hibernate:
-      ddl-auto: create
   datasource:
     url: jdbc:mysql://localhost:3306/ust
     username: root
