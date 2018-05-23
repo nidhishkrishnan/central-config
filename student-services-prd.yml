@@ -1,3 +1,6 @@
 server:
     context-path: /student
+student-services: 
+  ribbon: 
+    listOfServers: localhost:8001/student,localhost:8002/student,localhost:8003/student
 
