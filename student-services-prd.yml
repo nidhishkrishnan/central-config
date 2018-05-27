@@ -1,2 +1,2 @@
-server:	 server:
+server:
      context-path: /student
